@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Karla", sans-serif;
+}
+
+body {
+  background: hsl(204, 43%, 93%);
+}
+
+.container {
+  background: hsl(204, 43%, 93%);
+  width: 37%;
+  margin: auto;
+  margin-top: 200px;
+  box-shadow: 10px 6px 59px 20px rgba(0, 0, 0, 0.19);
+  display: flex;
+  flex-direction: column;
+}
+
+/* BOXES */
+
+/* Box-1 */
+.box-1 {
+  background: #fff;
+  padding: 2.5rem;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 2rem;
+}
+
+.sub-title {
+  font-weight: 400;
+  font-size: 1rem;
+  color: hsl(71, 73%, 54%);
+  margin-bottom: 1rem;
+}
+.content {
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgb(138, 138, 138);
+  margin-bottom: 1rem;
+}
+
+.wrap {
+  display: flex;
+  width: 100;
+}
+
+/* box-2 */
+.box-2 {
+  background: hsl(179, 62%, 43%);
+  padding: 2.5rem;
+  color: #fff;
+  width: 50%;
+}
+
+.box-title {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.box-2 h3 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.box-2 small {
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+
+.box-2 p {
+  font-size: 1rem;
+  opacity: 0.8;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  background: hsl(71, 73%, 54%);
+  color: #fff;
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+/* box-3 */
+.box-3 {
+  background: hsl(179, 57%, 54%);
+  padding: 2.5rem;
+  color: #fff;
+  width: 50%;
+}
+ul {
+  list-style: none;
+  font-size: 1rem;
+}
+
+li {
+  opacity: 0.7;
+}
+
+/* Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-top: 30vh;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
