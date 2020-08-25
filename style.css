@@ -139,9 +139,11 @@ li {
 
   .box-2 {
     width: 100%;
+    border-bottom-left-radius: 0px;
   }
 
   .box-3 {
     width: 100%;
+    border-bottom-left-radius: 10px;
   }
 }
