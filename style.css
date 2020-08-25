@@ -120,3 +120,22 @@ li {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media (max-width: 1025px) {
+  .container {
+    width: 75%;
+    margin-top: 2rem;
+  }
+  .wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box-2 {
+    width: 100%;
+  }
+
+  .box-3 {
+    width: 100%;
+  }
+}
