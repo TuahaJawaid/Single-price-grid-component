@@ -13,11 +13,10 @@ body {
 }
 
 .container {
-  background: hsl(204, 43%, 93%);
   width: 37%;
   margin: auto;
   margin-top: 200px;
-  box-shadow: 10px 6px 59px 20px rgba(0, 0, 0, 0.19);
+
   display: flex;
   flex-direction: column;
 }
@@ -28,6 +27,9 @@ body {
 .box-1 {
   background: #fff;
   padding: 2.5rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 10px 6px 59px 20px rgba(0, 0, 0, 0.19);
 }
 
 .title {
@@ -61,6 +63,8 @@ body {
   padding: 2.5rem;
   color: #fff;
   width: 50%;
+  border-bottom-left-radius: 10px;
+  box-shadow: 10px 6px 59px 20px rgba(0, 0, 0, 0.19);
 }
 
 .box-title {
@@ -100,6 +104,8 @@ body {
   padding: 2.5rem;
   color: #fff;
   width: 50%;
+  border-bottom-right-radius: 10px;
+  box-shadow: 10px 6px 59px 20px rgba(0, 0, 0, 0.19);
 }
 ul {
   list-style: none;
